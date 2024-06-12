@@ -1,0 +1,398 @@
+/* bagic propatis */
+*{
+  margin: 0;
+  padding: 0;
+
+  font-family: "Dongle", sans-serif;
+  scroll-behavior: smooth;
+}
+body { overflow-x:hidden; }
+
+/* font family add */
+@font-face {
+  font-family: "Dongle", sans-serif;
+  src: url("Dongle/sans-serif.ttf");
+} 
+/* header start */
+.header1{
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  background-color: lightgray;
+  box-sizing: border-box;
+  align-content: stretch;
+  
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  max-width: 20%;
+}
+.nevmenu ul{
+  display: flex;
+
+}
+.nevmenu li{
+  list-style: none;
+  margin-right: 20px;
+}
+.navmenu li :last-child{
+  margin-right: 0px;
+}
+.nevmenu a{
+  text-decoration: none;
+  font-family: "Dongle", sans-serif;
+  font-size: 24px;
+  color: #333;
+  transition:  0.3s;
+}
+.sabmenu{
+  font-family: "Dongle", sans-serif;
+}
+.sabmenu:hover{
+  color: #ff7f50;
+
+} 
+/* hedaer end  */
+/* benner start */
+.benner{
+  position: relative;
+  height: 750px;
+  overflow: hidden;
+}
+.bennerimg img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.bennercontent{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: #fff;
+}
+.bennercontent h1{
+  font-family: "Dongle", sans-serif;
+  font-size: 52px;
+}
+.bennercontent p{
+  font-family: "Dongle", sans-serif;
+  font-size: 42px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+.bennerbutton{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff7f50;
+  padding: 12px 30px;
+  border-radius: 60px;
+  font-family: "Dongle", sans-serif;
+  font-size: 32px;
+  transition:  0.3s;
+}
+.bennerbutton:hover{
+  background-color: #333;
+
+}
+/* benner end  */
+
+/* section start  */
+.section1{
+  font-size: 48px;
+  font-family: "Dongle", sans-serif;
+  color:midnightblue;
+  margin: 50px 0px; 
+  text-align: center;
+  background-color: #97E7E1;
+}
+.section1 h2 {
+ margin-bottom: 40px;
+}
+.sectiongrid{
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  gap: 40px;
+}
+.sectionitem{
+  text-align: left;
+}
+.secimg {
+ width: 100%;
+ height: 400px;
+ object-fit: cover;
+ border-radius: 35px;
+ transition: 0.3s;
+}
+.sectionitem h3{
+ font-size: 40px;
+}
+.sectionitem  p{
+  font-size: 24px;
+  line-height: 1;
+  font-family: "Dongle", sans-serif;
+}
+.secimg :hover{
+  transform: scale(1.1);
+}
+
+/* section end  */
+/* hoteal start */
+.section2{
+  font-size: 48px;
+  font-family: "Dongle", sans-serif;
+  margin: 50px 0px;
+  color: goldenrod;
+  text-align: center;
+  background-color: #DCD6F7;
+}
+.section2 h2 {
+ margin-bottom: 40px;
+}
+.sectiongrid2{
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  gap: 40px;
+}
+.sectionitem2{
+  text-align: left;
+}
+.secimg2 {
+ width: 100%;
+ height: 400px;
+ object-fit: cover;
+ border-radius: 35px;
+}
+.sectionitem2 h3{
+ font-size: 40px;
+}
+.sectionitem2  p{
+  font-size: 24px;
+  line-height: 1;
+  font-family: "Dongle", sans-serif;
+}
+
+/* hotal end  */
+/* activites start */
+.section3{
+  font-size: 48px;
+  font-family: "Dongle", sans-serif;
+  margin: 50px 0px; 
+  color: darkblue;
+  text-align: center;
+  background-color: #A6E3E9;
+}
+.section3 h2 {
+ margin-bottom: 40px;
+}
+.sectiongrid3{
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  gap: 40px;
+}
+.sectionitem3{
+  text-align: left;
+}
+.secimg3 {
+ width: 100%;
+ height: 400px;
+ object-fit: cover;
+  border-radius: 35px;
+}
+.sectionitem3 h3{
+ font-size: 40px;
+}
+.sectionitem3  p{
+  font-size: 24px;
+  line-height: 1;
+  font-family: "Dongle", sans-serif;
+}
+
+/* activites end */
+
+/* about start */
+.about {
+  text-align: center;
+  padding: 0px;
+  margin: 50px 0px; 
+  color: darkolivegreen;
+  background-color: antiquewhite;
+}
+.about h3{
+  font-family: "Dongle", sans-serif;
+  font-size: 78px;
+
+}
+.about p{
+  font-family: "Dongle", sans-serif;
+  font-size: 32px;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+.member1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.memberimg{
+  text-align: left;
+  width: 365px;
+  height: 475px;
+  margin: 20px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.member h4 {
+  font-family: "Dongle", sans-serif;
+  font-size: 32px;
+}
+.member p{
+  font-family: "Dongle", sans-serif;
+  font-size: 32px;
+}
+
+/* about end  */
+/* contect start  */
+.contact{
+  padding: 80px;
+  margin: 50px 0px; 
+  text-align: center;
+  background-color:skyblue;
+}
+.contact h3{
+  font-family: "Dongle", sans-serif;
+  font-size:48px;
+}
+.contactinfo p{
+  font-family: "Dongle", sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.contactinfo ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+} 
+.contactinfo li{
+  margin: 0 20px;
+  font-family: "Dongle", sans-serif;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+
+}
+.contactinfo li a{
+  text-decoration: none;
+  font-family: "Dongle", sans-serif;
+  color: black;
+}
+.contactinfo i{
+  font-size: 24px;
+  margin-right: 10px;
+}
+.form{
+  width: 100%;
+}
+input,textarea{
+  width: 70%;
+  padding: 10px;
+  margin: 20px 0;
+  border: none;
+  box-shadow: 0 0 5px rgba(0,0,0, 0.1);
+  border-radius: 5px;
+  font-size: 24px;
+  font-family: "Dongle", sans-serif;
+}
+textarea{
+  height: 200px;
+}
+.form button{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff7f50;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-family: "Dongle", sans-serif;
+  font-size: 30px;
+  border: none;
+  transition: all ease 0.3s;
+}
+.form button:hover{
+  background-color: #333;
+}
+/* contect end  */
+/* footer start */
+footer{
+  background-color: #333;
+  font-family: "Dongle", sans-serif;
+}
+.footer{
+  width: 100%;
+  padding: 70px 30px 20px;
+
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+}
+.social-icons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: #F7F7F7;
+  margin: 10px;
+  border-radius: 50%;
+}
+.social-icons a i{
+  font-size: 32px;
+  color: #333;
+  opacity: 0.9;
+}
+/* hover effect i-con  */
+.social-icons a:hover{
+  background-color: #ff7f50;
+  transition: 0.3s;
+}
+.social-icons a:hover i{
+  color:#fff;
+  transition: 0.3s;
+}
+.footernev{
+  margin: 30px 0px;
+}
+.footernev ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.footernev ul li a{
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 28px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.footernev ul li a:hover{
+  opacity: 1;
+  color: #ff7f50;
+}
+.footerbottom{
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Dongle", sans-serif;
+}
+
+/* footer end  */
