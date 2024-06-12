@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body{
+   background-color: rgb(29, 187, 134);
+}
+.Header{
+    background-color: rgb(11, 158, 11);
+}
+.Header h3{
+    font-family: "Roboto Condensed", sans-serif;
+    color: aliceblue;
+    width: 100%;
+}
+
+.yesterday{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-decoration: underline;
+}
+
+.Today{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-decoration: underline;
+}
+
